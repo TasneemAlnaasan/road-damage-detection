@@ -1,5 +1,6 @@
-
 # 🛣️ Road Damage Detection
+
+🔗 **[Live Demo](https://pzhxtgoklzzt6ftujeusmv.streamlit.app/)**
 
 A computer vision project that detects and classifies road surface damage
 (potholes and cracks) from images, using a fine-tuned YOLOv8 model.
@@ -24,7 +25,7 @@ maintenance prioritization.
 ## Dataset
 
 3,321 labeled road images (train/valid/test split: 2325/664/332), sourced from
-[Road Damage Dataset on Roboflow Universe](رابط الداتاست هون) (CC BY 4.0).
+[Road Damage Dataset on Roboflow Universe](https://universe.roboflow.com/roaddamage-msfnj/road-damage-ww8ex) (CC BY 4.0).
 
 ## Model & Results
 
@@ -45,7 +46,7 @@ target for future improvement (more data / longer training).
 
 ## Demo
 
-[صورة أو GIF من التطبيق هون لاحقاً]
+🔗 [Try the live app here] (https://pzhxtgoklzzt6ftujeusmv.streamlit.app/)
 
 ## Tech Stack
 
@@ -58,7 +59,7 @@ target for future improvement (more data / longer training).
 ## How to Run Locally
 
 \`\`\`bash
-git clone <رابط الريبو تبعك>
+git clone <https://github.com/TasneemAlnaasan/road-damage-detection.git>
 cd road-damage-detection
 pip install -r requirements.txt
 cd app
