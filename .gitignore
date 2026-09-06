@@ -1,0 +1,9 @@
+
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.pt
+!models/best.pt
+__pycache__/
+.env
