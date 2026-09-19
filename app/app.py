@@ -1,14 +1,11 @@
 
 # Streamlit web app: upload a road image, run our trained YOLO model,
 # and display the image with detected damage boxes drawn on it
-# تطبيق ويب بسيط: رفع صورة طريق، تشغيل موديلنا المدرّب،
-# وعرض الصورة مع صناديق التلف المكتشف مرسومة عليها
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 
 # Load the trained model once when the app starts
-# تحميل الموديل المدرّب مرة وحدة لما يبدأ التطبيق
 model = YOLO("models/best.pt")
 
 st.title("🛣️ Road Damage Detector | كاشف تلف الطرق")

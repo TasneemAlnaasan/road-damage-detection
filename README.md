@@ -5,8 +5,6 @@
 A computer vision project that detects and classifies road surface damage
 (potholes and cracks) from images, using a fine-tuned YOLOv8 model.
 
-Built as a portfolio project connecting a background in transportation
-engineering with applied machine learning.
 
 ## Problem
 
@@ -46,7 +44,7 @@ target for future improvement (more data / longer training).
 
 ## Demo
 
-🔗 [Try the live app here] (https://pzhxtgoklzzt6ftujeusmv.streamlit.app/)
+🔗 Try the live app here: (https://pzhxtgoklzzt6ftujeusmv.streamlit.app/)
 
 ## Tech Stack
 
